@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/adrimoc1/public_html/malma.ro/cer
+        - /bin/cp -r /home/adrimoc1//malma.ro/cer/* $DEPLOYPATH
